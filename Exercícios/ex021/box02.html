@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: gray;
+        }
+        header{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: #b26ff0;
+            padding: 3px;
+            box-shadow: 5px 7px 7px 0px #00000046;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: lightblue;
+            padding: 10px;
+        }
+        article > aside{
+            background-color: #d9f5ff;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia voluptatem harum, omnis similique eum, pariatur necessitatibus, quo reprehenderit vero excepturi eligendi animi porro enim ullam itaque! Perferendis voluptas ullam repellendus.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o curso</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque, quaerat ex praesentium alias, at quasi fuga consequuntur, quisquam voluptatum totam enim ab qui a nulla cupiditate architecto quibusdam quam!</p>
+                <aside>
+                    <p>artigo escrito por Nixon</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por cursoemvideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
