@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .odd{
+            background-color: red;
+            padding: 10px;
+            margin: 20px;
+        }
+        .even{
+            background-color: blue;
+            padding: 10px;
+            margin: 20px;
+        }
+        .flex-container{
+            height: 100vh;
+            width: 60vw;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+        }
+        .flex-item{
+            flex: 0 1 20%;
+        }
+    </style>
+</head>
+<body>
+    <h1>FlexBox</h1>
+    <section class="flex-container">
+        <div class="odd flex-item">
+            <img src="Gato-Png-149x149.png" alt="gato">
+            <img src="Gato-Png-149x149.png" alt="">
+            <img src="Gato-Png-149x149.png" alt="">
+        </div>
+        <div class="even flex-item">
+            <img src="Gato-Png-149x149.png" alt="gato">
+        </div>
+        <div class="odd flex-item">
+            <img src="Gato-Png-149x149.png" alt="gato">
+        </div>
+        <div class="even flex-item">
+            <img src="Gato-Png-149x149.png" alt="gato">
+        </div>
+        <div class="odd flex-item">
+            <img src="Gato-Png-149x149.png" alt="gato">
+        </div>
+    </section>
+</body>
+</html>
